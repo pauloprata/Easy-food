@@ -3,8 +3,8 @@ EasyFood é um aplicativo que facilita a preparação de alimentos e fornece inf
 
 
 # Bibliotecas e tecnologias usadas
-* Componente de navegação: uma atividade contém vários fragmentos em vez de criar várias atividades.
-* Retrofit: fazendo conexão HTTP com a API restante e convertendo o arquivo json refeição em objeto Kotlin/Java.
+* Componente de navegação: uma activity contém vários fragments em vez de criar várias activites.
+* Retrofit: fazendo conexão HTTP com a Rest-API e convertendo o arquivo json refeição em objeto Kotlin/Java.
 * Room: Salve as refeições no banco de dados local.
 * MVVM & LiveData: Saperate logic code from views e save the state in case the screen configuration change.
 * Coroutines: faça algum código em segundo plano.
